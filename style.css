@@ -1,0 +1,100 @@
+body {
+    padding: 12px;
+    margin: 0 16px;
+}
+header {
+    display: inline-block;
+    width: 100%;
+    background: #d3571d;
+    background-image: url("images/smartphone buyer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2px 2px 48px 2px;
+}
+nav {
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    color: #000000;
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 17px 1px;
+    width: 216px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 60px;
+}
+.active {
+    background: #ffffff;
+    color: #2b2323;
+}
+h1 {
+    /* text-transform: uppercase; */
+    font-size: 18px;
+    color: #faf8f8;
+    padding-top: 16px;
+    text-align: center;
+}
+main {
+    display:flex
+}
+aside {
+    flex:1;
+}
+.left {
+    /* background: #385b77; */
+}
+img {
+    width: 80%;
+    /* border: 2px solid #000000; */
+    margin: 14px 8%;
+}
+a:first-child img {
+    margin-top: 36px;
+}
+section {
+    flex:4;
+    float: right;
+    clear: right;
+    margin-top: 4px;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-bottom: 16px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 80px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+table tr td, table tr th {
+    padding: 11px;
+    text-align: center;
+    border-width: 1px;
+}
+table tr td {
+    border: 1px solid #eee;
+    background: #385b77;
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+}
+table tr td:first-child, table tr th:first-child {
+    text-align: left;
+}
+table tr:hover td {
+    background: rgba(122, 158, 182, 0.9);
+    color: rgb(43, 43, 43);
+    opacity: 0.9;
+}
+/* table tr th {
+    border: 1px solid #385b77;
+    color: #fff;
+    background: linear-gradient(0deg, #7F8C3C 0%, #819D48 100%);
+    border-radius: 6px 6px 0 0;
+    border-bottom-width: 4px; */
+}
