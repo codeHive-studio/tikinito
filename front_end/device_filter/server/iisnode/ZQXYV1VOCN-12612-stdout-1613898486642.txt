@@ -1,0 +1,2 @@
+server is runing \\.\pipe\fbfd14aa-d8c4-499a-9a07-afdf080a1a4e
+SUCCESS...!!!

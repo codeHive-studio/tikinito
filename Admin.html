@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css"
+    /> -->
+  </head>
+
+  <body>
+    <!-- Navbar -->
+
+    <nav
+      id="navbar1"
+      class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"
+    >
+      <div class="container">
+        <span class="navbar-brand shadow">Device Filter </span>
+
+        <button
+          class="navbar-toggler toggler-example"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent1"
+          aria-controls="navbarSupportedContent1"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="dark-blue-text"> <i class="fa fa-bars fa-1x"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" id="active1" href="/admin"
+                ><i class="fa fa-home" aria-hidden="true"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="active2" href="/admin/dashboard/slider"
+                ><i class="fa fa-sliders" aria-hidden="true"></i> Slider</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="active2" href="/admin/dashboard/Category"
+                ><i class="fa fa-list-alt" aria-hidden="true"></i> Category</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="active3" href="/logout"
+                ><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar -->
+    <!-- Adddata -->
+    <!-- show image on click  -->
+    <div
+      class="modal fade"
+      id="loadModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="">
+          <div class="modal-body text-center" id="modelbody">
+            <button class="btn btn-primary" type="button" id="spinner">
+              <span
+                class="spinner-border spinner-border-sm"
+                role="status"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Loading...</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="">
+          <div class="model-header">
+            <button
+              type="button"
+              class="close btn btn-dark"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body text-center" id="modelbody">
+            <img src="" height="400" class="w-100" id="img" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end -->
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Add Product</h5>
+            <button
+              type="button"
+              class="btn-close"
+              id="model-close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- container -->
+            <div class="container">
+              <div class="jumbotron">
+                <div class="form-modal">
+                  <div class="form-toggle"></div>
+
+                  <div id="login-form">
+                    <form id="form" method="POST" enctype="multipart/form-data">
+                      <div class="row" id="rows">
+                        <div class="col-md-6">
+                          <label for="model" class="pl">Model Name</label>
+                          <input
+                            type="text"
+                            name="model"
+                            placeholder="Model Name"
+                            id="model"
+                            required
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="price" class="pl">Price</label>
+                          <input
+                            type="number"
+                            name="price"
+                            step="any"
+                            placeholder="Price"
+                            step="0.01"
+                            id="price"
+                            required
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="Size" class="pl">Size</label>
+
+                          <select class="selectbox w-100" id="size">
+                            <option selected>SELECT SIZE</option>
+                            <option value="1">S</option>
+                            <option value="2">M</option>
+                            <option value="3">L</option>
+                            <option value="4">XL</option>
+                          </select>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="camera" class="pl">Camera</label>
+                          <input
+                            type="number"
+                            name="camera"
+                            placeholder="Camera"
+                            id="camera"
+                            min="1"
+                            max="10"
+                            step="0.01"
+                            required
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="storage" class="pl">Storage</label>
+                          <input
+                            type="number"
+                            name="storage"
+                            placeholder="Storage"
+                            id="storage"
+                            required
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="battery" class="pl">Battery</label>
+                          <input
+                            type="number"
+                            name="battery"
+                            placeholder="Battery"
+                            id="battery"
+                            min="1"
+                            max="10"
+                            step="0.01"
+                            required
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="model" class="pl">Display</label>
+                          <input
+                            type="number"
+                            placeholder="Display"
+                            id="display"
+                            min="1"
+                            max="10"
+                            step="0.01"
+                            required
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="model" class="pl">Image</label>
+                          <input
+                            type="File"
+                            id="image"
+                            name="D_image"
+                            required
+                          />
+                        </div>
+                        <div class="offset"></div>
+
+                        <button
+                          type="button "
+                          id="add"
+                          class="btn login m-auto w-50"
+                        >
+                          Add
+                        </button>
+
+                        <button
+                          class="btn login m-auto w-50"
+                          type="button"
+                          style="display: none"
+                          id="spinner"
+                        >
+                          <span
+                            class="spinner-border spinner-border-sm"
+                            role="status"
+                            aria-hidden="true"
+                          ></span>
+                          <span class="sr-only">Loading...</span>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-12 text-end m-2 d-flex justify-content-end">
+          <form id="uploadFile" class="">
+            <input
+              type="file"
+              name="csv"
+              id="csv"
+              accept=".csv,.txt"
+              style="display: none"
+            />
+            <button class="btn btn-success mt-2" type="submit">
+              <i class="fa fa-upload" aria-hidden="true"></i> Import CSV
+            </button>
+          </form>
+          <button
+            class="btn btn-success mt-2 m-2"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+            data-backdrop="static"
+            data-keyboard="false"
+            id="AddProductClick"
+          >
+            <i class="fa fa-plus-circle" aria-hidden="true"></i> Add Product
+          </button>
+        </div>
+      </div>
+      <div class="row" id="dvTable">
+        <img
+          src="/img/loader.gif"
+          alt="Loading"
+          srcset=""
+          id="loader"
+          style="display: none"
+        />
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/jquery.js"></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="js/sweetalert.min.js"></script>
+  <!-- <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script> -->
+
+  <script src="/js/submitProduct.js"></script>
+  <script src="/js/filter.js"></script>
+</html>

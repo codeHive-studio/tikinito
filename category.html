@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css"
+    /> -->
+  </head>
+
+  <body>
+    <!-- Navbar -->
+
+    <nav
+      id="navbar1"
+      class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"
+    >
+      <div class="container">
+        <span class="navbar-brand shadow">Device Filter </span>
+
+        <button
+          class="navbar-toggler toggler-example"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent1"
+          aria-controls="navbarSupportedContent1"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="dark-blue-text"> <i class="fa fa-bars fa-1x"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" id="active1" href="/admin"
+                ><i class="fa fa-home" aria-hidden="true"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="active2" href="/admin/dashboard/slider"
+                ><i class="fa fa-sliders" aria-hidden="true"></i> Slider</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="active2" href="/admin/dashboard/Category"
+                ><i class="fa fa-list-alt" aria-hidden="true"></i> Category</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="active3" href="/logout"
+                ><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar -->
+    <!-- Adddata -->
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-bottom-0">
+            <h5 class="modal-title" id="cattitle">Add Category</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+              id="model-close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form id="submit">
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="email1">Enter Category</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="category-txt"
+                  aria-describedby="categoryhelp"
+                  placeholder="Category Name"
+                  required
+                />
+              </div>
+            </div>
+            <div
+              class="modal-footer border-top-0 d-flex justify-content-center"
+            >
+              <button type="submit" class="btn btn-success" id="save">
+                Save
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                style="display: none"
+                id="cUpdate"
+              >
+                Update
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-12 text-end mt-2 mb-1">
+          <button
+            class="btn btn-success mt-2"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+            id="AddCategory"
+          >
+            <i class="fa fa-plus-circle" aria-hidden="true"></i> Add Category
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img src="/img/loader.gif" alt="Loading" srcset="" id="loader" />
+        </div>
+        <div class="col-md-12">
+          <table
+            class="table table-hover table-responsive border"
+            id="categoryTb"
+            style="display: none"
+          >
+            <thead class="bg-dark text-white">
+              <tr>
+                <th>Category Name</th>
+                <th>Edit</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+            <tbody id="myCategory"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/js/jquery.js"></script>
+  <script src="/js/sweetalert.min.js"></script>
+
+  <!-- <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script> -->
+  <script src="/js/cat.js"></script>
+</html>

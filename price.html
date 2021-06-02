@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Price Panel</title>
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body id="loadBody">
+    <nav
+      id="navbar1"
+      class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"
+    >
+      <div class="container">
+        <span class="navbar-brand shadow">Device Filter </span>
+
+        <button
+          class="navbar-toggler toggler-example"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent1"
+          aria-controls="navbarSupportedContent1"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="dark-blue-text"> <i class="fa fa-bars fa-1x"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" id="active1" href="/admin"
+                ><i class="fa fa-home" aria-hidden="true"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="active2" href="/admin/dashboard/slider"
+                ><i class="fa fa-sliders" aria-hidden="true"></i> Slider</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="active2" href="/admin/dashboard/Category"
+                ><i class="fa fa-list-alt" aria-hidden="true"></i> Category</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="active3" href="/logout"
+                ><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <!-- Adddata -->
+    <div class="container pt-5">
+      <div class="jumbotron">
+        <div class="form-modal">
+          <div class="form-toggle">
+            <h3 class="text-center pt-3">UPDATE PRICE</h3>
+          </div>
+
+          <div id="login-form">
+            <form id="updateRange">
+              <div class="row">
+                <div class="col-md-6">
+                  <label for="Max Price" class="pl">Min Price</label>
+                  <input
+                    type="number"
+                    placeholder="Min Price"
+                    id="min"
+                    min="0"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="Max Price" class="pl">Max Price</label>
+                  <input
+                    type="number"
+                    placeholder="Max Price"
+                    id="max"
+                    required
+                  />
+                </div>
+
+                <!-- <button type="button " class="btn login m-auto w-50" id="add">Add</button> -->
+                <button
+                  type="button "
+                  class="btn login m-auto w-50"
+                  id="update"
+                >
+                  update
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/js/jquery.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="/js/submitProduct.js"></script>
+  <script>
+    $(window).on("load", function () {
+      $.ajax({
+        type: "GET",
+        url: "/admin/dashboard/getslidervalue",
+        dataType: "json",
+        contentType: "application/json",
+        success: function (res) {
+          const data = res.data[0];
+          $("#min").val(data.min);
+          $("#max").val(data.max);
+        },
+        error: function (xhr, status, error) {
+          console.log(error);
+          location.reload();
+        },
+      });
+    });
+  </script>
+</html>

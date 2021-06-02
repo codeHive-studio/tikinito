@@ -1,0 +1,230 @@
+server is runing \\.\pipe\6c45d2d0-e9a1-49c0-9722-c5908c572fbc
+undefined
+[0mGET /admin [36m302[0m 14.666 ms - 46[0m
+[0mGET / [32m200[0m 10.265 ms - 4838[0m
+[0mGET /css/style.css [32m200[0m 11.505 ms - 3487[0m
+[0mGET /js/signIn.js [32m200[0m 14.625 ms - 838[0m
+[0mGET /css/bootstrap.css [32m200[0m 24.182 ms - 208229[0m
+[0mGET /js/jquery.js [32m200[0m 12.774 ms - 341206[0m
+[0mGET /img/login.png [32m200[0m 9.042 ms - 4780[0m
+[0mGET /img/loader.gif [32m200[0m 13.168 ms - 515715[0m
+[0mGET /favicon.ico [33m404[0m 2.831 ms - 150[0m
+[0mPOST /login [32m200[0m 47.182 ms - 21[0m
+true
+true
+[0mGET /admin [32m200[0m 9.014 ms - 9172[0m
+[0mGET /css/style.css [36m304[0m 3.476 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 2.134 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 3.075 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 3.250 ms - -[0m
+[0mGET /js/submitProduct.js [32m200[0m 5.612 ms - 7283[0m
+[0mGET /js/filter.js [32m200[0m 4.477 ms - 410[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 11.286 ms - 2818[0m
+true
+[0mPOST /admin/dashboard/addproduct [32m201[0m 14.497 ms - 37[0m
+true
+true
+[0mGET /admin [32m200[0m 4.942 ms - 9172[0m
+[0mGET /css/style.css [36m304[0m 0.703 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 0.689 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 1.076 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 0.854 ms - -[0m
+[0mGET /js/filter.js [36m304[0m 0.707 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 0.988 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 8.441 ms - 2929[0m
+true
+[0mGET /admin/dashboard/slider [32m200[0m 5.129 ms - 3938[0m
+[0mGET /css/bootstrap.css [36m304[0m 1.502 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 0.807 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 1.793 ms - -[0m
+[0mGET /css/style.css [36m304[0m 1.271 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 9.526 ms - 2929[0m
+true
+[0mGET /admin/dashboard/getslidervalue [32m200[0m 4.429 ms - 53[0m
+true
+true
+[0mGET /admin [32m200[0m 2.886 ms - 9172[0m
+[0mGET /css/style.css [36m304[0m 8.519 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 5.513 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 2.897 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 3.694 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 3.685 ms - -[0m
+[0mGET /js/filter.js [36m304[0m 2.266 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 10.495 ms - 2929[0m
+true
+[0mGET /admin/dashboard/slider [32m200[0m 4.006 ms - 3938[0m
+[0mGET /css/style.css [36m304[0m 0.890 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 0.779 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 1.468 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 1.561 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 5.596 ms - 2929[0m
+true
+[0mGET /admin/dashboard/getslidervalue [32m200[0m 4.245 ms - 53[0m
+[0mGET /logout [36m302[0m 1.574 ms - 46[0m
+[0mGET / [32m200[0m 5.105 ms - 4838[0m
+[0mGET /css/style.css [36m304[0m 1.618 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 2.186 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 2.867 ms - -[0m
+[0mGET /img/login.png [36m304[0m 2.238 ms - -[0m
+[0mGET /js/signIn.js [36m304[0m 6.323 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 0.979 ms - -[0m
+[0mPOST /login [32m200[0m 4.422 ms - 21[0m
+true
+true
+[0mGET /admin [32m200[0m 2.584 ms - 9172[0m
+[0mGET /css/style.css [36m304[0m 0.693 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 0.708 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 1.260 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 0.849 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 4.610 ms - -[0m
+[0mGET /js/filter.js [36m304[0m 1.344 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 5.241 ms - 2929[0m
+true
+true
+[0mGET /admin [32m200[0m 5.382 ms - 9172[0m
+[0mGET /css/style.css [36m304[0m 0.897 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 0.881 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 1.014 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 0.739 ms - -[0m
+[0mGET /js/filter.js [36m304[0m 0.730 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 2.264 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 4.417 ms - 2929[0m
+true
+[0mGET /admin/dashboard/slider [32m200[0m 4.217 ms - 3938[0m
+[0mGET /css/style.css [36m304[0m 0.730 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 1.625 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 1.555 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 1.194 ms - -[0m
+true
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 10.246 ms - 2929[0m
+[0mGET /admin/dashboard/getslidervalue [32m200[0m 15.228 ms - 53[0m
+true
+[0mPOST /admin/dashboard/setSliderRange [32m200[0m 6.837 ms - 59[0m
+true
+[0mGET /admin/dashboard/slider [32m200[0m 5.194 ms - 3938[0m
+[0mGET /css/bootstrap.css [36m304[0m 2.005 ms - -[0m
+[0mGET /css/style.css [36m304[0m 1.742 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 0.735 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 0.656 ms - -[0m
+true
+true
+[0mGET /admin/dashboard/getslidervalue [32m200[0m 8.121 ms - 53[0m
+[0mGET /admin/dashboard/showAll [32m200[0m 13.912 ms - 2929[0m
+true
+[0mPOST /admin/dashboard/setSliderRange [32m200[0m 4.204 ms - 59[0m
+true
+[0mGET /admin/dashboard/slider [32m200[0m 2.952 ms - 3938[0m
+[0mGET /css/style.css [36m304[0m 2.046 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 2.332 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 1.132 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 0.911 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 8.391 ms - 2929[0m
+true
+[0mGET /admin/dashboard/getslidervalue [32m200[0m 8.926 ms - 53[0m
+true
+true
+[0mGET /admin [32m200[0m 3.290 ms - 9172[0m
+[0mGET /css/bootstrap.css [36m304[0m 1.689 ms - -[0m
+[0mGET /css/style.css [36m304[0m 2.141 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 1.427 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 1.179 ms - -[0m
+[0mGET /js/filter.js [36m304[0m 0.689 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 1.271 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 13.929 ms - 2929[0m
+true
+[0mGET /admin/dashboard/ProductById/130 [32m200[0m 5.822 ms - 110[0m
+true
+[0mPOST /admin/dashboard/UpdateProduct/130 [32m200[0m 6.218 ms - 46[0m
+true
+true
+[0mGET /admin [32m200[0m 4.817 ms - 9172[0m
+[0mGET /js/jquery.js [36m304[0m 2.383 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 4.579 ms - -[0m
+[0mGET /css/style.css [36m304[0m 2.091 ms - -[0m
+[0mGET /js/filter.js [36m304[0m 0.822 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 0.870 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 4.889 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 12.169 ms - 2929[0m
+true
+126
+[
+  OkPacket {
+    fieldCount: 0,
+    affectedRows: 1,
+    insertId: 0,
+    serverStatus: 10,
+    warningCount: 0,
+    message: '',
+    protocol41: true,
+    changedRows: 0
+  },
+  OkPacket {
+    fieldCount: 0,
+    affectedRows: 1,
+    insertId: 0,
+    serverStatus: 34,
+    warningCount: 0,
+    message: '',
+    protocol41: true,
+    changedRows: 0
+  }
+]
+[0mGET /admin/dashboard/DeleteProduct/126 [32m200[0m 34.149 ms - 46[0m
+true
+true
+[0mGET /admin [32m200[0m 3.171 ms - 9172[0m
+[0mGET /css/bootstrap.css [36m304[0m 1.755 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 3.204 ms - -[0m
+[0mGET /css/style.css [36m304[0m 1.602 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 0.713 ms - -[0m
+[0mGET /js/filter.js [36m304[0m 0.930 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 0.858 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 6.556 ms - 2814[0m
+true
+130
+[
+  OkPacket {
+    fieldCount: 0,
+    affectedRows: 1,
+    insertId: 0,
+    serverStatus: 10,
+    warningCount: 0,
+    message: '',
+    protocol41: true,
+    changedRows: 0
+  },
+  OkPacket {
+    fieldCount: 0,
+    affectedRows: 1,
+    insertId: 0,
+    serverStatus: 34,
+    warningCount: 0,
+    message: '',
+    protocol41: true,
+    changedRows: 0
+  }
+]
+[0mGET /admin/dashboard/DeleteProduct/130 [32m200[0m 19.596 ms - 46[0m
+true
+true
+[0mGET /admin [32m200[0m 4.302 ms - 9172[0m
+[0mGET /css/style.css [36m304[0m 0.565 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 1.473 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 1.257 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 0.923 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 1.081 ms - -[0m
+[0mGET /js/filter.js [36m304[0m 1.202 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 5.007 ms - 2703[0m

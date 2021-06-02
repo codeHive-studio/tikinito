@@ -1,0 +1,21 @@
+server is runing \\.\pipe\c056c001-cfae-4d72-aded-5042e2e75347
+[0mGET / [32m200[0m 28.020 ms - 4838[0m
+[0mGET /css/bootstrap.css [32m200[0m 4.796 ms - 208229[0m
+[0mGET /css/style.css [32m200[0m 2.112 ms - 3487[0m
+[0mGET /js/signIn.js [32m200[0m 5.585 ms - 838[0m
+[0mGET /img/login.png [32m200[0m 7.638 ms - 4780[0m
+[0mGET /js/jquery.js [32m200[0m 10.554 ms - 341206[0m
+[0mGET /img/loader.gif [32m200[0m 8.378 ms - 515715[0m
+[0mGET /favicon.ico [33m404[0m 3.728 ms - 150[0m
+[0mPOST /login [32m200[0m 69.520 ms - 21[0m
+true
+true
+[0mGET /admin [32m200[0m 14.168 ms - 9172[0m
+[0mGET /css/style.css [36m304[0m 2.664 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 1.708 ms - -[0m
+[0mGET /js/submitProduct.js [32m200[0m 3.934 ms - 7283[0m
+[0mGET /js/filter.js [32m200[0m 1.637 ms - 410[0m
+[0mGET /js/jquery.js [36m304[0m 1.741 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 1.812 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 14.245 ms - 2702[0m

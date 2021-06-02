@@ -1,0 +1,9 @@
+server is runing \\.\pipe\95d92e7c-66e2-4ed8-a0da-f9c7371268fa
+[0mGET / [32m200[0m 11.676 ms - 4838[0m
+[0mGET /css/style.css [32m200[0m 1.977 ms - 3487[0m
+[0mGET /css/bootstrap.css [32m200[0m 2.576 ms - 208229[0m
+[0mGET /js/jquery.js [32m200[0m 2.481 ms - 341206[0m
+[0mGET /js/signIn.js [32m200[0m 2.234 ms - 838[0m
+[0mGET /img/loader.gif [32m200[0m 4.261 ms - 515715[0m
+[0mGET /img/login.png [32m200[0m 2.182 ms - 4780[0m
+[0mGET /favicon.ico [33m404[0m 5.404 ms - 150[0m

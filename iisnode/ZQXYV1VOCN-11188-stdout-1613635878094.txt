@@ -1,0 +1,28 @@
+server is runing \\.\pipe\f8578592-7826-43a6-a0b0-f34447678042
+[0mGET / [32m200[0m 13.392 ms - 4838[0m
+[0mGET /css/style.css [32m200[0m 1.756 ms - 3487[0m
+[0mGET /css/bootstrap.css [32m200[0m 1.788 ms - 208229[0m
+[0mGET /js/jquery.js [32m200[0m 2.683 ms - 341206[0m
+[0mGET /js/signIn.js [32m200[0m 2.004 ms - 838[0m
+[0mGET /img/login.png [32m200[0m 1.736 ms - 4780[0m
+[0mGET /img/loader.gif [32m200[0m 3.870 ms - 515715[0m
+[0mGET /favicon.ico [33m404[0m 3.390 ms - 150[0m
+[0mGET / [32m200[0m 1.507 ms - 4838[0m
+[0mGET /css/style.css [36m304[0m 3.604 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 0.830 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 1.456 ms - -[0m
+[0mGET /js/signIn.js [32m200[0m 2.666 ms - 838[0m
+[0mGET /img/login.png [36m304[0m 1.711 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 1.134 ms - -[0m
+[0mPOST /login [32m200[0m 54.273 ms - 21[0m
+true
+true
+[0mGET /admin [32m200[0m 9.141 ms - 9172[0m
+[0mGET /css/style.css [36m304[0m 1.027 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 0.970 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 1.056 ms - -[0m
+[0mGET /js/submitProduct.js [32m200[0m 2.582 ms - 7283[0m
+[0mGET /js/filter.js [32m200[0m 4.387 ms - 410[0m
+[0mGET /img/loader.gif [36m304[0m 1.465 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 9.820 ms - 2818[0m

@@ -1,0 +1,53 @@
+server is runing \\.\pipe\9a68bd91-41e7-45ed-89f4-e5477f793981
+undefined
+[0mGET /admin [36m302[0m 14.676 ms - 46[0m
+[0mGET / [32m200[0m 11.179 ms - 4838[0m
+[0mGET /js/signIn.js [32m200[0m 5.019 ms - 838[0m
+[0mGET /css/bootstrap.css [32m200[0m 7.914 ms - 208229[0m
+[0mGET /js/jquery.js [32m200[0m 4.264 ms - 341206[0m
+[0mPOST /login [32m200[0m 162.641 ms - 21[0m
+true
+true
+[0mGET /admin [32m200[0m 8.193 ms - 9172[0m
+[0mGET /css/bootstrap.css [36m304[0m 3.919 ms - -[0m
+[0mGET /css/style.css [36m304[0m 2.375 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 5.740 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 5.001 ms - -[0m
+[0mGET /js/filter.js [36m304[0m 4.275 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 1.636 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 21.214 ms - 2702[0m
+true
+[0mGET /admin/dashboard/ProductById/127 [32m200[0m 8.957 ms - 109[0m
+true
+true
+[0mGET /admin [32m200[0m 7.393 ms - 9172[0m
+[0mGET /css/bootstrap.css [36m304[0m 1.035 ms - -[0m
+[0mGET /css/style.css [36m304[0m 1.036 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 1.522 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 2.882 ms - -[0m
+[0mGET /js/filter.js [36m304[0m 1.541 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 1.672 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 14.774 ms - 2702[0m
+true
+[0mGET /admin/dashboard/slider [32m200[0m 5.177 ms - 3938[0m
+[0mGET /css/style.css [36m304[0m 1.251 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 2.215 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 1.083 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 1.002 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 4.970 ms - 2702[0m
+true
+[0mGET /admin/dashboard/getslidervalue [32m200[0m 4.957 ms - 53[0m
+true
+true
+[0mGET /admin [32m200[0m 4.875 ms - 9172[0m
+[0mGET /css/bootstrap.css [36m304[0m 3.332 ms - -[0m
+[0mGET /css/style.css [36m304[0m 3.120 ms - -[0m
+[0mGET /js/filter.js [36m304[0m 0.925 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 3.600 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 2.055 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 1.939 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 11.342 ms - 2702[0m

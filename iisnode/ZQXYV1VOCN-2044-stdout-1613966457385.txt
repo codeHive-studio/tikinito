@@ -1,0 +1,79 @@
+server is runing \\.\pipe\35489bf3-5b54-4291-9429-5974c6d39b03
+[0mGET / [32m200[0m 16.138 ms - 4838[0m
+[0mGET / [32m200[0m 4.415 ms - 4838[0m
+[0mGET /css/style.css [32m200[0m 6.453 ms - 3487[0m
+[0mGET /img/login.png [32m200[0m 5.136 ms - 4780[0m
+[0mGET /css/bootstrap.css [32m200[0m 4.095 ms - 208229[0m
+[0mGET /js/signIn.js [32m200[0m 3.740 ms - 838[0m
+[0mGET /js/jquery.js [32m200[0m 1.992 ms - 341206[0m
+[0mGET /img/loader.gif [32m200[0m 3.115 ms - 515715[0m
+[0mGET / [32m200[0m 6.109 ms - 4838[0m
+[0mGET /css/bootstrap.css [32m206[0m 4.695 ms - 1[0m
+[0mGET /css/style.css [36m304[0m 4.327 ms - -[0m
+[0mGET /img/login.png [36m304[0m 1.142 ms - -[0m
+[0mGET /js/jquery.js [32m200[0m 8.007 ms - 341206[0m
+[0mGET /js/signIn.js [32m200[0m 2.127 ms - 838[0m
+[0mGET /img/loader.gif [32m200[0m 7.667 ms - 515715[0m
+[0mGET /css/bootstrap.css [32m206[0m 2.229 ms - 142693[0m
+[0mGET /favicon.ico [33m404[0m 3.260 ms - 150[0m
+[0mPOST /login [32m200[0m 62.722 ms - 21[0m
+true
+true
+[0mGET /admin [32m200[0m 9.137 ms - 9172[0m
+[0mGET /css/style.css [36m304[0m 1.097 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 1.017 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 0.790 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 0.737 ms - -[0m
+[0mGET /js/submitProduct.js [32m200[0m 3.134 ms - 7283[0m
+[0mGET /js/filter.js [32m200[0m 2.448 ms - 410[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 14.911 ms - 2702[0m
+true
+[0mPOST /admin/dashboard/addproduct [32m201[0m 15.632 ms - 37[0m
+true
+true
+[0mGET /admin [32m200[0m 9.390 ms - 9172[0m
+[0mGET /css/style.css [36m304[0m 2.402 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 1.291 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 1.141 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 1.294 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 3.314 ms - -[0m
+[0mGET /js/filter.js [36m304[0m 2.436 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 9.949 ms - 2818[0m
+true
+[0mGET /admin/dashboard/slider [32m200[0m 3.032 ms - 3938[0m
+[0mGET /css/bootstrap.css [36m304[0m 1.393 ms - -[0m
+[0mGET /css/style.css [36m304[0m 1.366 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 1.115 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 1.033 ms - -[0m
+true
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 12.496 ms - 2818[0m
+[0mGET /admin/dashboard/getslidervalue [32m200[0m 15.381 ms - 53[0m
+true
+true
+[0mGET /admin [32m200[0m 7.118 ms - 9172[0m
+[0mGET /css/style.css [36m304[0m 1.139 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 1.002 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 0.918 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 1.132 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 2.548 ms - -[0m
+[0mGET /js/filter.js [36m304[0m 1.630 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 6.143 ms - 2818[0m
+true
+[0mGET /admin/dashboard/ProductById/131 [32m200[0m 6.343 ms - 115[0m
+true
+[0mPOST /admin/dashboard/UpdateProduct/131 [32m200[0m 12.274 ms - 46[0m
+true
+true
+[0mGET /admin [32m200[0m 4.207 ms - 9172[0m
+[0mGET /css/bootstrap.css [36m304[0m 1.485 ms - -[0m
+[0mGET /css/style.css [36m304[0m 1.512 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 1.070 ms - -[0m
+[0mGET /js/submitProduct.js [36m304[0m 0.958 ms - -[0m
+[0mGET /js/filter.js [36m304[0m 1.293 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 0.960 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 6.057 ms - 2818[0m

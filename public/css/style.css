@@ -1,0 +1,224 @@
+/* Admin page css */
+
+.form-modal {
+  position: relative;
+  height: auto;
+  margin-top: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.form-modal button {
+  cursor: pointer;
+  position: relative;
+  text-transform: capitalize;
+  font-size: 1em;
+  z-index: 2;
+  outline: none;
+  background: #fff;
+  transition: 0.2s;
+}
+
+.form-modal .btn {
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 0.8em 1em 0.8em 1em !important;
+  transition: 0.5s;
+  border: 1px solid #ebebeb;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+.form-modal .login {
+  background: #1ab294;
+  color: #fff;
+}
+
+.form-modal .login:hover {
+  background: #222;
+  color: white;
+}
+
+.form-toggle button {
+  width: 50%;
+  float: left;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  border: none;
+  transition: 0.2s;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.form-modal form {
+  position: relative;
+  width: 90%;
+  height: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#login-form {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 1em;
+}
+
+#login-form button {
+  width: 100%;
+  margin-top: 0.5em;
+  padding: 0.6em;
+}
+
+.form-modal input {
+  position: relative;
+  width: 100%;
+  font-size: 1em;
+  padding: 1.2em 1.7em 1.2em 1.7em;
+  margin-bottom: 0.6em;
+  border-radius: 20px;
+  border: none;
+  background: #ebebeb;
+  outline: none;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.form-modal input:focus,
+.form-modal input:active {
+  transform: scaleX(1.02);
+}
+
+@media only screen and (max-width: 500px) {
+  .form-modal {
+    width: 100%;
+  }
+}
+
+/* @media only screen and (max-width: 400px) {
+  i {
+    display: none !important;
+  }
+} */
+
+/* Admin page end   */
+
+/* Login page css  */
+
+.pt {
+  padding-top: 150px;
+}
+
+.pl {
+  padding-left: 10px;
+}
+
+.user_card {
+  height: 400px;
+  width: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.brand_logo_container {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: -75px;
+  border-radius: 50%;
+  /* background: #60a3bc; */
+  padding: 10px;
+  text-align: center;
+}
+
+.brand_logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.form_container {
+  margin-top: 100px;
+}
+
+.icon {
+  height: 38px;
+  background-color: white !important;
+}
+
+.login_container {
+  padding: 0 2rem;
+}
+
+.login_btn {
+  background: #1ab294;
+  width: 100px;
+  border: 0;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+}
+
+.login_btn:hover {
+  background: black;
+  border: 0;
+  color: white;
+}
+
+/* login page end  */
+.btn-success {
+  background: #1ab294 !important;
+}
+
+.selectbox {
+  position: relative;
+  width: 100%;
+  font-size: 1em;
+  padding: 1.2em 1.7em 1.2em 1.7em;
+  margin-bottom: 0.6em;
+  border-radius: 20px;
+  border: none;
+  background: #ebebeb;
+  outline: none;
+  font-weight: bold;
+  transition: 0.4s;
+}
+td {
+  font-weight: 700;
+}
+body.modal-open {
+  overflow: hidden !important;
+}
+body.viewport-lg {
+  position: absolute !important;
+}
+#exampleModalCenter {
+  overflow: scroll !important;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+#exampleModalCenter::-webkit-scrollbar {
+  display: none;
+}

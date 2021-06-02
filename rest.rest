@@ -1,0 +1,13 @@
+# GET  http://localhost:8080/admin/dashboard/DeleteProduct/63
+
+# POST http://localhost:8080/admin/dashboard/updateProduct/57
+
+
+# POST http://localhost:8080/admin/dashboard/AddProduct
+
+# GET http://localhost:8080/admin/dashboard/showAll
+
+
+# POST http://localhost:8080/login
+
+

@@ -1,0 +1,36 @@
+server is runing \\.\pipe\6679f538-75ad-4df8-9a6c-6f5a6310e5d8
+[0mGET / [32m200[0m 13.670 ms - 4838[0m
+[0mGET /css/style.css [32m200[0m 2.909 ms - 3487[0m
+[0mGET /css/bootstrap.css [32m200[0m 2.833 ms - 208229[0m
+[0mGET /js/signIn.js [32m200[0m 3.435 ms - 838[0m
+[0mGET /js/jquery.js [32m200[0m 3.402 ms - 341206[0m
+[0mGET / [32m200[0m 2.228 ms - 4838[0m
+[0mGET /img/login.png [32m200[0m 3.276 ms - 4780[0m
+[0mGET /img/loader.gif [32m200[0m 3.164 ms - 515715[0m
+[0mGET /favicon.ico [33m404[0m 6.705 ms - 150[0m
+[0mGET /js/jquery.js [32m200[0m 1.717 ms - 341206[0m
+[0mGET /js/signIn.js [32m200[0m 1.514 ms - 838[0m
+[0mGET /css/style.css [32m200[0m 3.082 ms - 3487[0m
+[0mGET /css/bootstrap.css [32m200[0m 3.541 ms - 208229[0m
+[0mGET /img/login.png [32m200[0m 5.092 ms - 4780[0m
+[0mGET /img/loader.gif [32m200[0m 1.439 ms - 515715[0m
+[0mPOST /login [32m200[0m 57.385 ms - 21[0m
+true
+true
+[0mGET /admin [32m200[0m 7.877 ms - 9172[0m
+[0mGET /css/bootstrap.css [36m304[0m 2.158 ms - -[0m
+[0mGET /css/style.css [36m304[0m 0.744 ms - -[0m
+[0mGET /js/submitProduct.js [32m200[0m 2.476 ms - 7283[0m
+[0mGET /js/filter.js [32m200[0m 2.797 ms - 410[0m
+[0mGET /js/jquery.js [36m304[0m 1.148 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 1.478 ms - -[0m
+true
+[0mGET /admin/dashboard/showAll [32m200[0m 9.079 ms - 2818[0m
+[0mGET /logout [36m302[0m 7.867 ms - 46[0m
+[0mGET / [32m200[0m 7.090 ms - 4838[0m
+[0mGET /css/style.css [36m304[0m 0.973 ms - -[0m
+[0mGET /css/bootstrap.css [36m304[0m 1.407 ms - -[0m
+[0mGET /js/jquery.js [36m304[0m 4.253 ms - -[0m
+[0mGET /js/signIn.js [36m304[0m 2.710 ms - -[0m
+[0mGET /img/login.png [36m304[0m 2.712 ms - -[0m
+[0mGET /img/loader.gif [36m304[0m 2.821 ms - -[0m
