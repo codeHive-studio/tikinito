@@ -8,10 +8,9 @@ const bodyparser = require("body-parser");
 router.get("/allCategory", (req, res) => {
   try {
     pool.getConnection((err, conn) => {
+      console.log(err);
       if (err) {
-        console.log(err);
-        console.log(conn);
-        return res.status(500).send({ Message: "Internal Server Error" });
+        return res.status(500).send({ Message: `Internal Server Error ${err}` });
       }
 
       const getall = "select cname from category";
