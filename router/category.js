@@ -10,6 +10,7 @@ router.get("/allCategory", (req, res) => {
     pool.getConnection((err, conn) => {
       if (err) {
         console.log(err);
+        console.log(conn);
         return res.status(500).send({ Message: "Internal Server Error" });
       }
 
