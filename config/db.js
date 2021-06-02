@@ -1,11 +1,11 @@
 const { createPool } = require("mysql");
 
 var pool = createPool({
-  host: "localhost",
+  host: "localhost:3306",
   user: "j126922gil_tikinito",
   password: "T%k60e2e",
   database: "j126922gil_tikinito",
-  connectionLimit: 2000,
+  connectionLimit: 200000,
   multipleStatements: true,
 });
 
