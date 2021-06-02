@@ -1,6 +1,7 @@
-const { createPool } = require("mysql");
-
-var pool = createPool({
+const mysql = require('mysql2');
+ 
+// create the connection to database
+const pool = mysql.createPool({
   host: "localhost",
   user: "j126922gil_tikinito",
   password: "T%k60e2e",
